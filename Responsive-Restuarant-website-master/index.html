@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restuarant Website</title>
+
+    <!-- remix icon cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom css file  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- =========== header start ============ -->
+    <header class="header">
+      <nav class="nav">
+        <div class="container">
+          <div class="nav__wrapper">
+            <div class="logo">
+              <h1>Hot<span class="highlight">Dish</span></h1>
+            </div>
+
+            <div class="navigation">
+              <ul class="nav__menu">
+                <li class="nav__item">
+                  <a href="#home" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#menu" class="nav__link">Menu</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#about" class="nav__link">About Us</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#blog" class="nav__link">Blog</a>
+                </li>
+              </ul>
+            </div>
+
+            <span class="mobile__menu"><i class="ri-menu-line"></i></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- =========== header end ============ -->
+
+    <!-- =========== main start ============ -->
+    <main>
+      <!-- hero section start -->
+      <section id="home" class="section">
+        <div class="container">
+          <div class="hero__wrapper">
+            <div class="hero__content">
+              <h2 class="hero__title">Hot Dish Restaurant</h2>
+              <h3 class="highlight">Celebrating Nairobi's Diversity and Culinary Excellence</h3>
+              
+            </div>
+          </div>
+          <p>
+            Experience the epitome of contemporary cuisine at Hot Dish Restaurant. Our award-winning upscale establishment in Karen showcases the perfect fusion of Nairobi's cultural diversity and natural beauty. From power breakfasts to formal gala events, indulge in an array of dining experiences that embody culinary perfection.
+          </p>
+        </div>
+        
+      </section>
+
+      <section  class="section">
+        <div class="container">
+          <div class="hero__wrapper">
+            <div class="hero__content">
+              <h2 class="hero__title">Today's Special</h2>
+              <h2 class="highlight">Ugali Nyama</h2>
+              <p>
+                Savor the authentic flavors of Kenya with our renowned Ugali Nyama, where succulent meat and traditional cornmeal unite, offering a true taste of local culinary heritage in every delectable bite.
+              </p>
+
+              <div class="hero__btns">
+                <button onclick="location.href='#menu'"  class="view__more-btn" >View menu</button>
+              </div>
+            </div>
+
+            <div class="hero__img">
+              <img src="./images/hero-img.png" alt="hero-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- hero section start -->
+      <!-- popular dishes section start -->
+      <section class="section">
+        <div class="container">
+          <div class="dishes__section-top">
+            <h2>Unique Dishes</h2>
+          </div>
+
+          <div class="dishes__wrapper">
+            <div class="dish__item">
+              <div class="dish__img">
+                <img src="./images/dishes-01.png" alt="" />
+              </div>
+
+              <div class="dish__content">
+                <h3>Papporoni Pizza</h3>
+                <div class="ratings">
+                  <span><i class="ri-star-s-fill"></i></span>
+                  <span><i class="ri-star-s-fill"></i></span>
+                  <span><i class="ri-star-s-fill"></i></span>
+                  <span><i class="ri-star-s-fill"></i></span>
+                  <span><i class="ri-star-half-s-line"></i></span>
+                </div>
+
+                <div class="dish__content-bottom">
+                  <span class="dish__price">Ksh 1000</span>
+                  <span class="add__to-cart"
+                    ><i class="ri-shopping-cart-line"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="dish__item">
+              <div class="dish__img">
+                <img src="./images/dishes-02.png" alt="" />
+              </div>
+
+              <div class="dish__content">
+                <h3>Pasta</h3>
+                <div class="ratings">
+                  <span><i class="ri-star-s-fill"></i></span>
+                  <span><i class="ri-star-s-fill"></i></span>
+                  <span><i class="ri-star-s-fill"></i></span>
+                  <span><i class="ri-star-s-fill"></i></span>
+                  <span><i class="ri-star-half-s-line"></i></span>
+                </div>
+
+                <div class="dish__content-bottom">
+                  <span class="dish__price">Ksh 300</span>
+                  <span class="add__to-cart"
+                    ><i class="ri-shopping-cart-line"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="dish__item">
+              <div class="dish__img">
+                <img src="./images/dishes-03.png" alt="" />
+              </div>
+
+              <div class="dish__content">
+                <h3>Vegetable</h3>
+                <div class="ratings">
+                  <span><i class="ri-star-s-fill"></i></span>
+                  <span><i class="ri-star-s-fill"></i></span>
+                  <span><i class="ri-star-s-fill"></i></span>
+                  <span><i class="ri-star-s-fill"></i></span>
+                  <span><i class="ri-star-half-s-line"></i></span>
+                </div>
+
+                <div class="dish__content-bottom">
+                  <span class="dish__price">Ksh 200</span>
+                  <span class="add__to-cart"
+                    ><i class="ri-shopping-cart-line"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- popular dishes section end -->
+      <!-- about us section start -->
+      <section class="section">
+        <div class="container">
+          <div class="about__wrapper">
+            <div class="about__img">
+              <img src="./images/burger.png" alt="" />
+            </div>
+
+            <div class="about__content">
+              <h3>
+                We take immense pride in crafting extraordinary experiences
+              </h3>
+              <p>
+                luxury meets impeccable service, creating moments that leave an indelible mark of joy and fulfillment on our guests' hearts.
+              </p>
+
+              <button class="learn__more"><a href="#about">Learn more</a></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <div class="about__wrapper">
+             <div class="about__content">
+              <div class="dishes__section-top">
+                <h2>
+                  About Us
+                </h2>
+               </div>
+                <h4>
+                  Celebrating Cultural Diversity and Natural Environment 
+                </h4>
+                <p>
+                  Welcome to Hot Dish Restaurant, a culinary destination that celebrates the vibrant cultural diversity and stunning natural environment of Nairobi. Nestled in the suburb of Karen, our establishment combines the best of both worlds to offer you a unique dining experience.
+                </p>
+                <h4>
+                  Exquisite Cuisine with Skilled Technique 
+                </h4>
+                <p>
+                  At Hot Dish, we take pride in our ingredient-led contemporary cuisine. Our highly skilled team, led by Chef Martin, showcases their expertise and drive for perfection in every dish we serve. From innovative techniques to carefully selected ingredients, our cuisine reflects our commitment to culinary excellence.
+                </p>
+                <h4> 
+                  Glamorous Yet Welcoming Atmosphere 
+                </h4>
+                <p>
+                  Step into the world of Hot Dish and experience a perfect balance of glamour and warmth. As a four-time winner of the Nairobi magazine Pulse Awards for Best Upscale Restaurant, we provide a sophisticated and elegant ambiance. However, we also ensure that our guests feel relaxed and welcomed, thanks to our attentive and friendly services.
+                </p>
+                <h4>
+                  Located in Karen, A Suburban Retreat
+                </h4>
+                <p>
+                  Hot Dish Restaurant is conveniently located in Karen, a serene and picturesque suburb of Nairobi. This tranquil setting offers a peaceful escape from the city's hustle and bustle, allowing you to enjoy your dining experience in a calm and inviting environment.
+                </p>
+                <h4>
+                  Catering to Every Dining Occasion
+                </h4>
+                <p>
+                  Whether you're seeking a delightful breakfast, a leisurely brunch, a quick lunch, or an unforgettable dinner, Hot Dish has you covered. Our extensive menu is designed to cater to various dining occasions, ensuring that there's something for everyone. Additionally, we offer a bar dining menu for those looking to unwind with after-work drinks or casual get-togethers.
+                </p>
+                <h4>
+                  Creating Memorable Moments
+                </h4>
+                <p>
+                  Hot Dish is not just a restaurant; it's a place where memories are made. We specialize in hosting formal gala events, adding a touch of culinary excellence to your special occasions. Whether it's a corporate gathering, a milestone celebration, or a romantic dinner, our dedicated team will ensure that your event is nothing short of extraordinary.
+                </p>
+                <p>
+                  Experience the celebration of Nairobi's cultural diversity, the flavors of our exquisite cuisine, and the warm hospitality of Hot Dish Restaurant. Join us today for a remarkable dining experience that will leave a lasting impression on your taste buds and in your heart.
+                </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about us section end -->
+      <!-- menu section start -->
+      <section class="section" id="menu">
+        <div class="container">
+          <div class="menu__section-top">
+            <h2>Special Menu For You</h2>
+          </div>
+
+          <div class="menu__wrapper">
+            <div class="menu__item">
+              <div class="menu__img">
+                <img src="./images/product-01.png" alt="" />
+              </div>
+
+              <h3>Ugali kienyeji</h3>
+              <div class="menu__card-bottom">
+                <div>
+                  <div class="ratings">
+                    <span><i class="ri-star-s-fill"></i></span>
+                    <span><i class="ri-star-s-fill"></i></span>
+                    <span><i class="ri-star-s-fill"></i></span>
+                    <span><i class="ri-star-s-fill"></i></span>
+                    <span><i class="ri-star-half-s-line"></i></span>
+                  </div>
+                  <span class="dish__price">Ksh 300.00</span>
+                </div>
+
+                <span class="add__to-cart"
+                  ><i class="ri-shopping-cart-line"></i
+                ></span>
+              </div>
+            </div>
+
+            <div class="menu__item">
+              <div class="menu__img">
+                <img src="./images/product-02.png" alt="" />
+              </div>
+
+              <h3>Rice plain</h3>
+              <div class="menu__card-bottom">
+                <div>
+                  <div class="ratings">
+                    <span><i class="ri-star-s-fill"></i></span>
+                    <span><i class="ri-star-s-fill"></i></span>
+                    <span><i class="ri-star-s-fill"></i></span>
+                    <span><i class="ri-star-s-fill"></i></span>
+                    <span><i class="ri-star-half-s-line"></i></span>
+                  </div>
+                  <span class="dish__price">Ksh 150</span>
+                </div>
+
+                <span class="add__to-cart"
+                  ><i class="ri-shopping-cart-line"></i
+                ></span>
+              </div>
+            </div>
+
+            <div class="menu__item">
+              <div class="menu__img">
+                <img src="./images/product-03.png" alt="" />
+              </div>
+
+              <h3>Chapati</h3>
+              <div class="menu__card-bottom">
+                <div>
+                  <div class="ratings">
+                    <span><i class="ri-star-s-fill"></i></span>
+                    <span><i class="ri-star-s-fill"></i></span>
+                    <span><i class="ri-star-s-fill"></i></span>
+                    <span><i class="ri-star-s-fill"></i></span>
+                    <span><i class="ri-star-half-s-line"></i></span>
+                  </div>
+                  <span class="dish__price">Ksh 50</span>
+                </div>
+
+                <span class="add__to-cart"
+                  ><i class="ri-shopping-cart-line"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- menu section end -->
+      <!-- offer section start -->
+      <section class="section" id="blog">
+        <div class="container">
+          <div class="offer__wrapper">
+            <div class="offer__content">
+              <h2>
+                Enjoy up to <span class="highlight">50%</span> off during the festival!
+              </h2>
+              <p>
+                Indulge in the aromatic symphony of tender chicken and fragrant spices, as our signature Chicken Pilau dish takes your taste buds on an unforgettable culinary journey at our esteemed hotel.
+              </p>
+
+              
+            </div>
+
+            <div class="offer__img">
+              <img src="./images/offer.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- offer section end -->
+      <!-- blog section start -->
+      <section class="section" id="blog">
+        <div class="container">
+          <div class="blog__top">
+            <h2>Our Top Recipes</h2>
+          </div>
+
+          <div class="blog__wrapper">
+            <div class="blog__item">
+              <div class="blog__img">
+                <img src="./images/recipe-01.jpg" alt="" />
+              </div>
+              <div class="blog__content">
+                <h3>Grilled Chicken</h3>
+                <p>
+                  Indulge in our flavorful grilled chicken, a culinary delight at our Restuarant.
+                </p>
+
+                
+              </div>
+            </div>
+
+            <div class="blog__item">
+              <div class="blog__img">
+                <img src="./images/recipe-02.jpg" alt="" />
+              </div>
+              <div class="blog__content">
+                <h3>Seasoned Chicken</h3>
+                <p>
+                  Savor our perfectly seasoned chicken, an unforgettable delight at our Restuarant.
+                </p>
+
+                
+              </div>
+            </div>
+
+            <div class="blog__item">
+              <div class="blog__img">
+                <img src="./images/recipe-03.jpg" alt="" />
+              </div>
+              <div class="blog__content">
+                <h3>Pilaf</h3>
+                <p>
+                  Unite tender meat and fragrant rice in our captivating meat pilaf.
+                </p>
+
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- blog section end -->
+    </main>
+    <!-- =========== main end ============ -->
+
+    <!-- =========== footer start ============ -->
+    <footer class="section footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          
+
+          <div class="footer__box">
+            <h3 class="footer__link-title">Information</h3>
+            <ul class="footer__menu">
+              <li class="footer__menu-item">
+                <a href="#about" class="footer__link">About Us</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__link">Events</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__link">Career</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__link">Our Chefs</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__box">
+            <h3 class="footer__link-title">Services</h3>
+            <ul class="footer__menu">
+              <li class="footer__menu-item">
+                <a href="#about" class="footer__link">Online Order</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__link">24/7 Support</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__link">Pre-Reservation</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__link">Foodie Place</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__box">
+            <h3 class="footer__link-title">Quick Links</h3>
+            <ul class="footer__menu">
+              <li class="footer__menu-item">
+                <a href="#menu" class="footer__link">Menu</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#blog" class="footer__link">Blog</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#about" class="footer__link">About Us</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__link">Offer</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__box">
+            <h3 class="footer__link-title">Social</h3>
+            <ul class="footer__menu">
+              <li class="footer__menu-item">
+                <a href="#" class="footer__link">Facebook</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__link">Instagram</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__link">Linkedin</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__link">Twitter</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- =========== footer end ============ -->
+
+    <!-- main js file -->
+    <script src="app.js"></script>
+  </body>
+</html>
